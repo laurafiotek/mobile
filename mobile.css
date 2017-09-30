@@ -8,6 +8,11 @@
 	/*oculto en el menu mobile*/
 	display: none;
 }
+.nav button {
+	background: none;
+	border: none;
+	cursor: pointer;
+}
 .nav-mobile {
 	position: absolute;
 	right: 30px;
@@ -56,6 +61,8 @@
 .nav-desktop a:hover {
 	color: black;
 }
+
+
 @media (max-width: 767px) {
 
 	.nav {
